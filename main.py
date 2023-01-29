@@ -67,8 +67,8 @@ def start_training(char_name: str, char_class: str) -> str:
 
 def choice_char_class() -> str:
     """Функция для определения персонажа игры."""
-    approve_choice = None
-    char_class = None
+    approve_choice: str = ' '
+    char_class: str = ' '
     while approve_choice != 'y':
         char_class = input('Введи название персонажа,'
                            ' за которого хочешь играть:'
